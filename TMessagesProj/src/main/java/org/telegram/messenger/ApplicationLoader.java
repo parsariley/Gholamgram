@@ -243,6 +243,10 @@ public class ApplicationLoader extends Application {
 
         super.onCreate();
 
+		
+        Log.d("GHOLAMGRAM", "GholamGram ساخته شد! به به چه برنامه ای!");
+
+		
         if (BuildVars.LOGS_ENABLED) {
             FileLog.d("app start time = " + (startTime = SystemClock.elapsedRealtime()));
             try {
